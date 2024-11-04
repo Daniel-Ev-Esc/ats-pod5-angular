@@ -1,0 +1,17 @@
+.navBar{
+    width: 100%;
+    background-color: orangered;
+    li{
+        display: inline-block;
+        margin-right: 1em;
+
+        button{
+            height: 3em;
+            background: none;
+            border: none;
+            cursor: pointer;
+            color: white;
+            font-size: 1em;
+        }
+    }
+}

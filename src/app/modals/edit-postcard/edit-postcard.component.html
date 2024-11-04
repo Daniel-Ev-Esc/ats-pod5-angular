@@ -1,0 +1,29 @@
+<div class="form-container">
+    <div>
+        <h3>
+            Title
+        </h3>
+        <input type="text">
+    </div>
+
+    <div>
+        <h3> Commenter </h3>
+        <input type="text">
+    </div>
+
+
+    <div>
+        <h3> Description </h3>
+        <input type="text">
+    </div>
+
+
+    <div>
+        <h3> Type </h3>
+        <select name="type-selector" id="type-selector">
+            <option *ngFor="let type of types" value="">{{type}}</option>
+        </select>
+    </div>
+</div>
+
+<button>Send</button>
